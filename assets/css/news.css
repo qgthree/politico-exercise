@@ -126,7 +126,6 @@ body {
 .news-item-content img {
   width: 100%;
   height: auto;
-  cursor: pointer;
 }
 .news-item-content-type {
   text-transform: uppercase;
@@ -209,6 +208,8 @@ body {
 }
 .news-button-play img {
   position: relative;
+  width: 27px;
+  Height: auto;
   left: -3px;
 }
 .news-button-more {
