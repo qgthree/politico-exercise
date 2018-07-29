@@ -123,9 +123,13 @@ body {
   border-top: 20px solid #fff;
   border-bottom: 20px solid #fff;
 }
-.news-item-content img {
+.news-item-content-image > img {
   width: 100%;
   height: auto;
+  transition: all 1s;
+}
+.news-item-content-image:hover > img {
+  transform: scale(1.1);
 }
 .news-item-content-type {
   text-transform: uppercase;
@@ -186,6 +190,7 @@ body {
   background-position: center;
   background-size: cover;
   cursor: pointer;
+  overflow: hidden;
 }
 .news-item-content-image:hover > .news-button-play {
   background-color: rgba(220, 2, 40, 1);
@@ -205,11 +210,13 @@ body {
   position: absolute;
   left: 4%;
   bottom: 5%;
+  width: 47px;
+  height: 47px;
 }
 .news-button-play img {
   position: relative;
   width: 27px;
-  Height: auto;
+  Height: 26px;
   left: -3px;
 }
 .news-button-more {
