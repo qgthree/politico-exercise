@@ -3,17 +3,17 @@ html {
 	-moz-box-sizing: border-box;
 }
 body {
-	margin: 0;
-	color: #000;
-	background-color: #fff;
-	top: 0px;
+  margin: 0;
+  color: #000;
+  background-color: #fff;
+  top: 0px;
   font-family: 'DIN 2014';
   filter:alpha(opacity=90);
   opacity: 0.9;
   text-align: center;
 }
 *, *:before, *:after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 #mfPreviewBar {
   /* hide MyFonts preview bar */
@@ -183,10 +183,10 @@ body {
   opacity: 0.6;
 }
 .news-item-content-image {
-	position: relative;
-	width: 100%;
-	height: 0;
-	padding-bottom: 66%;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 66%;
   background-position: center;
   background-size: cover;
   cursor: pointer;
